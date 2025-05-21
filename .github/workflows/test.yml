@@ -9,5 +9,4 @@ jobs:
     steps:
     - name: hola mundo
       run: echo "Hola Mundo"
-      uses: actions/checkout@v2
   
