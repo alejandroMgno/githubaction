@@ -3,10 +3,16 @@ name: Hola Mundo
 on: [push]
 
 jobs:
-  build:
+  build: #seleccionamos servidor
     runs-on: ubuntu-latest
 
-    steps:
+    steps: #la usamos para las acciones
     - name: hola mundo
       run: echo "Hola Mundo"
   
+  other_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: ls
+      run: ls -al
