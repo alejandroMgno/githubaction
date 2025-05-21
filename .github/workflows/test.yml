@@ -1,0 +1,13 @@
+name: Hola Mundo
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: hola mundo
+      run: echo "Hola Mundo"
+      uses: actions/checkout@v2
+  
